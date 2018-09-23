@@ -105,7 +105,6 @@ MainView {
                 }
             }
 
-
             states:
                 State {
                     id: statePressed
@@ -124,7 +123,7 @@ MainView {
 
         function setDiffResult(result) {
             labelUSD.font.wordSpacing = units.gu(.4);
-            labelUSD.text =  result;
+            labelUSD.text = result;
             labelUSD.font.underline = false;
             labelEUR.visible = false;
             labelBTC.visible = false;
@@ -134,12 +133,11 @@ MainView {
             var result;
             if (prices === "none") {
                 python.setDiffResult("No network connection.");
-
             } else {
                 try {
-                    labelUSD.text = ("USD: ") + JSON.parse(prices).usd;
-                    labelEUR.text = ("EUR: ") + JSON.parse(prices).eur;
-                    labelBTC.text = ("BTC: ") + JSON.parse(prices).btc;
+                    labelUSD.text = "USD: " + JSON.parse(prices).usd;
+                    labelEUR.text = "EUR: " + JSON.parse(prices).eur;
+                    labelBTC.text = "BTC: " + JSON.parse(prices).btc;
                     labelUSD.font.wordSpacing = units.gu(root.tableWith - labelUSD.text.length);
                     labelUSD.font.underline = true;
                     labelEUR.visible = true;
