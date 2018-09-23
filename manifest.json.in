@@ -1,0 +1,15 @@
+{
+    "name": "ethereumprice.ropod7",
+    "description": "The Ethereum Market Price App. Handling price from https://cryptowat.ch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Ethereum Price",
+    "hooks": {
+        "ethereumprice": {
+            "apparmor": "ethereumprice.apparmor",
+            "desktop":  "ethereumprice.desktop"
+        }
+    },
+    "version": "1.0.4",
+    "maintainer": "Roman Podgaiski <r.podgaiski@passionarity.org>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
