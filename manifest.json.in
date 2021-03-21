@@ -1,6 +1,6 @@
 {
     "name": "ethereumprice.ropod7",
-    "description": "The Ethereum Market Price simple app. Handles price from https://cryptowat.ch",
+    "description": "The Ethereum Market Price simple python app. Handles price from https://cryptowat.ch",
     "architecture": "@CLICK_ARCH@",
     "title": "Ethereum Price",
     "hooks": {
