@@ -14,20 +14,24 @@ msgstr ""
 "Language-Team: NORWEGIAN <LL@li.org>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Main.qml:26
+#: ../qml/Main.qml:27
 msgid "Ethereum Market Price"
 msgstr "Markedspris Ethereum"
 
-#: ../qml/Main.qml:33 ../qml/Main.qml:47 ../qml/Main.qml:63
+#: ../qml/Main.qml:34 ../qml/Main.qml:48 ../qml/Main.qml:64
 msgid "Loading..."
 msgstr "Laster..."
 
-#: ../qml/Main.qml:85
+#: ../qml/Main.qml:86
 msgid "Refresh"
 msgstr "Oppfrisk"
+
+#: ../qml/Main.qml:105
+msgid "Refreshing..."
+msgstr "Forfriskende..."
 
 #: ethereumprice.desktop.in.h:1
 msgid "Ethereum Price"

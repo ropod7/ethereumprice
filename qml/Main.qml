@@ -1,5 +1,6 @@
-import QtQuick 2.4
+import QtQuick 2.7
 import QtQuick.Layouts 1.1
+import Qt.labs.settings 1.0
 import Ubuntu.Components 1.3
 import io.thp.pyotherside 1.2
 
@@ -101,7 +102,7 @@ MainView {
                     python.call('priceHandler.handle', ["kraken"], function(prices) {
                         python.handle(prices);
                     })
-                    python.setDiffResult("Refreshing...");
+                    python.setDiffResult(i18n.tr("Refreshing..."));
                 }
             }
 
@@ -150,7 +151,7 @@ MainView {
         }
 
         Component.onCompleted: {
-            addImportPath(Qt.resolvedUrl('./'));
+            addImportPath(Qt.resolvedUrl('../src/'));
 
             importModule('priceHandler', function() {
                 python.call('priceHandler.handle', ["kraken"], function(prices) {
