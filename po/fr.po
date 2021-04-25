@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ethereumprice.ropod7 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ethereumprice.ropod7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-21 13:46+0000\n"
+"PO-Revision-Date: 2021-04-25 18:36+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Main.qml:27
+msgid "Ethereum Market Price"
+msgstr "Prix du marché de l'Ethereum"
+
+#: ../qml/Main.qml:34 ../qml/Main.qml:48 ../qml/Main.qml:64
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: ../qml/Main.qml:86
+msgid "Refresh"
+msgstr "Actualiser"
+
+#: ../qml/Main.qml:105
+msgid "Refreshing..."
+msgstr "Actualisation..."
+
+#: ethereumprice.desktop.in.h:1
+msgid "Ethereum Price"
+msgstr "Prix de l'Ethereum"
